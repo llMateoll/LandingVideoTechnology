@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css"/>
-
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One||Fjalla+One|Roboto&display=swap" rel="stylesheet"/>
-
-    <!-- BOOTSTRAP STYLE -->
-    <link rel="stylesheet" href="https://lets.gohubtek.com/bootstrap.min" />
-
-    <!-- SHARETHIS BEGIN -->
-    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=#{property?._id}&product=custom-share-buttons"></script>
-
-    <title>Embedded Video Template</title>
-
-    <style>
-      /*    PARALLAX EFECTO DE SCROLL EN IMAGENES    */
-
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" rel="stylesheet" />
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One||Fjalla+One|Roboto&amp;display=swap" rel="stylesheet" />
+<!-- BOOTSTRAP STYLE -->
+<link href="https://lets.gohubtek.com/bootstrap.min" rel="stylesheet" />
+<!-- SHARETHIS BEGIN -->
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=#{property?._id}&product=custom-share-buttons"></script>
+<title></title>
+<style type="text/css">
+    /*    PARALLAX EFECTO DE SCROLL EN IMAGENES    */
       body,
       html {
         height: 100%;
@@ -32,7 +25,6 @@
         color: #666;
         scroll-behavior: smooth;
       }
-
       .pimg1,
       .pimg2,
       .pimg3 {
@@ -46,7 +38,6 @@
         */
         background-attachment: fixed;
       }
-
       .pimg1 {
         /*     BACKGROUND IMAGE PRINCIPAL    */
         background-image: white;
@@ -54,70 +45,55 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
-
       .pimg2 {
         /*     BACKGROUND IMAGE PRINCIPAL    */
         background-image: white;
       }
-
       .check{
         margin-bottom: 4px;
       }
-
       .section {
         text-align: center;
         padding: 30px 80px;
       }
-
       .section-light {
         background-color: #f4f4f4;
         color: #666;
       }
-
       .section-dark {
         background-color: rgb(54, 54, 54);
         color: #ddd;
       }
-
       .text-center{
         text-align: center;
       }
-
       footer {
         text-align: center;
         padding: 20px;
       }
-
       .texto{
         font-size: 30px;
         font-family: 'Fjalla One', sans-serif;
       }
-
       p{
         margin-top: 0%;
         margin-bottom: 0%;
       }
-
       /* VIDEOS */
-
       .video-1 {
         text-align: center !important;
       }
-
       .titulo-video {
         font-family: "Fjalla One", sans-serif;
         font-size: 40px;
         color: rgb(56, 56, 56);
         text-transform: uppercase;
       }
-
       .padvideo{
         padding-left: 20%;
         padding-right: 20%;
       }
-
       /* BUTTON */
-
       .center-btn {
         text-decoration: none;
         display: flex;
@@ -125,7 +101,6 @@
         align-items: center;
         justify-content: center;
       }
-
       .btn {
         border-bottom: none !important;
         text-transform: uppercase;
@@ -137,7 +112,6 @@
         height: 50px;
         transition: .6s;
       }
-
       .btn-outline {
         text-decoration: none !important;
         border: 2px solid #E4002B !important;
@@ -147,26 +121,23 @@
         padding: 10px;
         font-weight: bold;
       }
-
       .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
         border: 2px solid #E4002B !important;
         background: transparent !important;
         color: #E4002B;
         font-weight: bold;
       }
-
       /*  FORM  */
-
       .form-style {
         max-width: 400px;
         padding: 10px 20px;
-        background: rgb(54, 54, 54);
-        border: 2px solid rgb(88, 88, 88);
+        /*background: rgb(54, 54, 54);*/
+        border: 1px solid rgb(88, 88, 88);
         margin: 10px auto;
         padding: 20px;
         border-radius: 8px;
         font-family:"Roboto", sans-serif;
-        height: 310px;
+        height: auto;
       }
       .form-style fieldset {
         border: none;
@@ -227,7 +198,6 @@
         -webkit-appearance: menulist-button;
         height: 35px;
       }
-
       .form-style input[type="submit"],
       .form-style input[type="button"] {
         position: relative;
@@ -250,16 +220,12 @@
         background: #ffffff;
         color: #e4002b;
       }
-
       /* COPYRIGHT */
-
       .copyright {
         padding-top: 1%;
         color: rgb(58, 58, 58);
       }
-
       /* SOCIAL MEDIA */
-
       a {
         text-decoration: none;
         color: #fff;
@@ -335,7 +301,6 @@
         color: white;
         border-radius: 5px 5px 5px 5px;
       }
-
       .fa-envelope {
         padding: 3px 10px;
         padding-top: 5px;
@@ -372,9 +337,7 @@
         color: white;
         border-radius: 5px 5px 5px 5px;
       }
-
       /*     RESPONSIVE     */
-
       @media (max-width: 480px) {
         .video-1 iframe{
           height: 100% !important;
@@ -402,7 +365,6 @@
           font-size: 15px;
         }
       }
-
       @media (max-width: 568px) {
         .pimg1,
         .pimg2,
@@ -418,7 +380,6 @@
           text-align: center !important;
         }
       }
-
       @media (max-width: 760px) {
         .video-1 iframe{
           height: 100% !important;
@@ -431,7 +392,6 @@
           text-align: center !important;
         }
       }
-
       @media (max-width: 980px) {
         .video-1 iframe{
           height: 100% !important;
@@ -441,76 +401,108 @@
           padding-top: 13%;
         }
       }
-    </style>
-  </head>
-  <body>
+</style>
+</head>
+<body>
+<!--                       BACKGROUND VIDEO PRINCIPAL                         -->
+<div class="pimg1">
+<div class="logo" style="text-align: left; padding-top: 0.5%; padding-left: 4%; background: rgb(54, 54, 54); width: 100%;"><img alt="Hubtek" height="60" src="https://www.gohubtek.com/wp/wp-content/uploads/2019/07/logo-final.png" width="191" /></div>
 
-    <!--                       BACKGROUND VIDEO PRINCIPAL                         -->
+<div class="container">
+<div>
+<div class="video-1">
+<h1 class="titulos titulo-video">Planning Your Talent and Technology<br />
+Requirements for 2020 AND BEYOND</h1>
+<!--    VIDEO     -->
 
-    <div class="pimg1">
-      <div class="logo" style="text-align: left; padding-top: 0.5%; padding-left: 4%; background: rgb(54, 54, 54); width: 100%;">
-        <img src="https://www.gohubtek.com/wp/wp-content/uploads/2019/07/logo-final.png" width="191" height="60" alt="Hubtek">
-      </div>
-      <div class="container">
-        <div class="">
-          <div class="video-1">
-            <h1 class="titulos titulo-video">Planning Your Talent and Technology <br> Requirements for 2020 AND BEYOND</h1>
-            <!--    VIDEO     -->
-            <div class="container">
-              <div class="padvideo">
-                <div class="wistia_responsive_padding" style="padding:100.0% 0 0 0;position:relative;">
-                  <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                    <iframe src="https://fast.wistia.net/embed/iframe/jh832278sx?videoFoam=true" title="Joel McGinley Video" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="container">
+<div class="padvideo">
+<div class="wistia_responsive_padding" style="padding:52.71% 0 0 0;position:relative;">
+<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe allowfullscreen="" allowtransparency="true" class="wistia_embed" frameborder="0" height="100%" mozallowfullscreen="" msallowfullscreen="" name="wistia_embed" oallowfullscreen="" scrolling="no" src="https://fast.wistia.net/embed/iframe/1uvboiyowh?videoFoam=true" title="Webinar key points Video" webkitallowfullscreen="" width="100%"></iframe></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--                     BUTTON                               -->
 
-    <!--                     BUTTON                               -->
+<div class="center-btn"><a class="btn btn-outline" href="#form-section">Watch the full video</a></div>
+</div>
+<!--                      SECTION TWO                         -->
 
-      <div class="center-btn">
-        <a class="btn btn-outline" href="#form-section">Watch the full video</a>
-      </div>
-    </div>
+<section class="section text-center section-dark">
+<div class="col-md-12" style="padding-left: 2%;">
+<h1 class="texto">Do you have growth plans?</h1>
 
-    <!--                      SECTION TWO                         -->
+<h5 class="texto">Learn how to...</h5>
+</div>
 
-    <section class="section text-center section-dark">
-      <div style="padding-left: 2%;" class="col-md-12">
-        <h1 class="texto">Do you have growth plans?</h1>
-        <h5 class="texto">Learn how to...</h5>
-      </div>   
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div style="text-align: left; padding-left: 6%;" class="col-md-4">
-          <h4 class="check"><img width="25px" src="https://lets.gohubtek.com/icono-check-hubtek" alt=""> Contain costs</h4>
-          <h4 class="check"><img width="25px" src="https://lets.gohubtek.com/icono-check-hubtek" alt=""> Grow your business</h4>
-          <h4 class="check"><img width="25px" src="https://lets.gohubtek.com/icono-check-hubtek" alt=""> Increase your margins</h4>
-        </div>
-        <div class="col-md-4"></div>
-      </div>
-    </section>
+<div class="row">
+<div class="col-md-4">&nbsp;</div>
 
-    
-    <!--                       FORM                         -->
-    
-    <div class="pimg2" id="form-section">
-      <br><br>
-      <div class="form-style">
+<div class="col-md-4" style="text-align: left; padding-left: 6%;">
+<h4 class="check"><img alt="" src="https://lets.gohubtek.com/icono-check-hubtek" width="25px" /> Contain costs</h4>
+
+<h4 class="check"><img alt="" src="https://lets.gohubtek.com/icono-check-hubtek" width="25px" /> Grow your business</h4>
+
+<h4 class="check"><img alt="" src="https://lets.gohubtek.com/icono-check-hubtek" width="25px" /> Increase your margins</h4>
+</div>
+
+<div class="col-md-4">&nbsp;</div>
+</div>
+</section>
+<!--                       FORM                         -->
+
+<div class="pimg2" id="form-section">
+<div class="form-style">
+<fieldset>
+    <legend>WATCH THE FULL VIDEO</legend>
+
+    <!-- <iframe allowtransparency="true" frameborder="0" height="460" src="https://lets.gohubtek.com/l/799063/2019-12-09/5t1l" style="border: 0;" type="text/html" width="100%"></iframe> -->
+
+    <form accept-charset="UTF-8" method="post" action="https://lets.gohubtek.com/l/799063/2020-01-14/7j44" class="form" id="pardot-form">
+
+        <p class="form-field  first_name pd-text required">
+            <label class="field-label" for="799063_19881pi_799063_19881">First Name</label>
+            <input type="text" name="799063_19881pi_799063_19881" id="799063_19881pi_799063_19881" value="" class="text" size="30" maxlength="40" onchange="" onfocus=""/>
+        </p>
+
+        <div id="error_for_799063_19881pi_799063_19881" style="display:none"></div>
+                    
+                
+        <p class="form-field  last_name pd-text required">
+            <label class="field-label" for="799063_19883pi_799063_19883">Last Name</label>
+            <input type="text" name="799063_19883pi_799063_19883" id="799063_19883pi_799063_19883" value="" class="text" size="30" maxlength="80" onchange="" onfocus="" />
+        </p>
         
-        <form>
-          <fieldset>
-            <legend>WATCH THE FULL VIDEO</legend>
-            <iframe allowtransparency="true" frameborder="0" height="460" src="https://lets.gohubtek.com/l/799063/2019-12-13/63pb" style="border: 0;" type="text/html" width="100%"></iframe>
-          </fieldset>
-        </form>
-      </div>
-      <!--                       SOCIAL MEDIA                         -->
-  
-      <div class="container">
+        <div id="error_for_799063_19883pi_799063_19883" style="display:none"></div>
+                    
+        <p class="form-field  email pd-text required">
+            <label class="field-label" for="799063_19885pi_799063_19885">Email</label>
+            <input type="email" name="799063_19885pi_799063_19885" id="799063_19885pi_799063_19885" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 799063, 19885, 175593);" onfocus="" />
+        </p>
+        
+        <div id="error_for_799063_19885pi_799063_19885" style="display:none"></div>
+                    
+        <p style="position:absolute; width:190px; left:-9999px; top: -9999px;visibility:hidden;">
+            <label for="pi_extra_field">Comments</label>
+            <input type="text" name="pi_extra_field" id="pi_extra_field"/>
+        </p>
+                
+        <!-- forces IE5-8 to correctly submit UTF8 content  -->
+        <input name="_utf8" type="hidden" value="&#9731;" />
+            <p class="submit">
+            <input type="submit" accesskey="s" value="SUBMIT" />
+        </p>
+        
+        <input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="" />
+    </form>
+</fieldset>
+</div>
+<!--                       SOCIAL MEDIA                         -->
+
+<div class="container">
           <div class="row">
   
             <div class="text-center footer-social-icons">
@@ -528,16 +520,59 @@
           </div>
         </div>
 
-      <p class="copyright text-center">Copyright &copy; Hubtek</p>
+      <p class="copyright text-center">Copyright &copy; Hubtek</p> <br><br>
       
     </div>
-    
-    <script src="https://lets.gohubtek.com/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="https://lets.gohubtek.com/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="https://kit.fontawesome.com/3ccca0b01a.js" crossorigin="anonymous"></script>
-    
-    <!-- VIDEO SCRIPT -->
-    <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
 
-  </body>
+<script src="https://lets.gohubtek.com/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://lets.gohubtek.com/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="https://kit.fontawesome.com/3ccca0b01a.js" crossorigin="anonymous"></script>
+<!-- VIDEO SCRIPT -->
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+
+    <!-- SCRIPTS FORM PARDOT -->
+
+    <script type="text/javascript" src="https://go.pardot.com/js/piUtils.js?ver=202001021110"></script><script type="text/javascript">
+        piAId = '800063';
+        piCId = '49327';
+        piHostname = 'pi.pardot.com';
+        if(!window['pi']) { window['pi'] = {}; } pi = window['pi']; if(!pi['tracker']) { pi['tracker'] = {}; } pi.tracker.pi_form = true;
+        (function() {
+            function async_load(){
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+            }
+            if(window.attachEvent) { window.attachEvent('onload', async_load); }
+            else { window.addEventListener('load', async_load, false); }
+        })();
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        
+            var anchors = document.getElementsByTagName("a");
+            for (var i=0; i<anchors.length; i++) {
+                var anchor = anchors[i];
+                if(anchor.getAttribute("href")&&!anchor.getAttribute("target")) {
+                    anchor.target = "_top";
+                }
+            }
+                
+        //]]>
+    </script>
+
+
+    <script type="text/javascript">(function(){ pardot.$(document).ready(function(){ (function() {
+        var $ = window.pardot.$;
+        window.pardot.FormDependencyMap = [];
+    
+        $('.form-field-master input, .form-field-master select').each(function(index, input) {
+            $(input).on('change', window.piAjax.checkForDependentField);
+            window.piAjax.checkForDependentField.call(input);
+        });
+        })(); });})();
+    </script>
+
+</body>
 </html>
